@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---------------------------------HEAD--------------------------------->
+<head>
+    <title>Learn Toastr</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <!-- Toastr -->        
+    <link href="toastr/build/toastr.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<!---------------------------------./HEAD--------------------------------->
+
+<!---------------------------------BODY--------------------------------->
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>Learn Toastr</h1>
+        <p>By Kelvin Kiprop</p> 
+    </div>
+
+    <div class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Column 1</h3>
+                        <button type="button" class="btn btn-info btn-block" onclick="showInfoToast()">Show Info Toast</button>  
+                        <button type="button" class="btn btn-warning btn-block" onclick="showWarningToast()">Show Warning Toast</button> 
+                </div>
+                <div class="col-sm-6">
+                    <h3>Column 3</h3>        
+                    <button type="button" class="btn btn-success btn-block" onclick="showSuccessToast()">Show Success Toast</button> 
+                    <button type="button" class="btn btn-danger btn-block" onclick="showDangerToast()">Show Danger Toast</button> 
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-secondary p-5 mb-0 mt-5">
+        <p  class="text-center text-white">&copy; Toastr 2020</p>
+    </div>
+
+    
+    <!-- Main Custom JS -->
+    <script src="main.js"></script>
+     <!-- JQuery Script -->
+    <script src="jQuery/jquery-3.4.1.js"></script>
+    <!-- Bootstrap JS Script -->
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <!-- Toastr js Script -->
+    <script src="toastr/build/toastr.min.js"></script>
+</body>
+<!---------------------------------./BODY--------------------------------->
+
+
+</html>
